@@ -1,0 +1,57 @@
+<view>
+     <view>
+        <view class="weui-search-bar">
+            
+            <view class="weui-search-bar__cancel-btn" bindtap="map" >定位</view>
+            <view class="weui-search-bar__form">
+            <!-- 搜索框 -->
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="请输入搜索内容"/>
+                </view>
+            </view>
+            <!-- 搜索按钮,调用搜索查询方法 -->
+            <view class="weui-search-bar__cancel-btn" bindtap='方法名a'>搜索</view>
+        </view>
+    </view>
+</view>
+
+<swiper indicator-dots="{{indicatorDots}}" 
+        autoplay="{{autoplay}}" 
+        circular="{{circular}}" 
+        vertical="{{vertical}}" 
+        interval="{{interval}}" 
+        duration="{{duration}}" 
+        previous-margin="{{previousMargin}}px" 
+        next-margin="{{nextMargin}}px">
+    
+    <block wx:for='{{images}}' wx:key='index'>
+      <swiper-item>
+        <image src='{{item}}' mode='aspectFill' class='swiper-item-images'/>
+      </swiper-item>
+    </block>
+
+</swiper>
+<view class="center-two">
+  <view  class="center-two-xs">
+    <button size="mini">新手指南</button>
+  </view>
+  <view class="center-two-cj">
+    <button size="mini">常见问题</button>
+  </view>
+</view>
+
+<view class="center-three">
+  <view  class="center-three-gy">
+    <button size="mini">高佣专区</button>
+  </view>
+  <view class="center-three-gx">
+    <button size="mini">高薪专区</button>
+  </view>
+  <view class="center-three-rj">
+    <button size="mini">日结专区</button>
+  </view>
+</view>
+<view class="foot-view">
+  
+</view>

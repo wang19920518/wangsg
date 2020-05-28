@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/frist/fristpage",
+    "pages/index/loginsuccess",
+    "pages/my/myInfo",
+    "pages/order/order",
+    "pages/find/find"
+    
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "请点击确定"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/frist/fristpage",
+        "iconPath": "",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/my/myInfo",
+        "iconPath": "",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
